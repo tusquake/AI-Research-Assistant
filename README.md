@@ -1,7 +1,7 @@
 
 # 🧠 AI Research Assistant – Chrome Extension
 
-**AI Research Assistant** is a Chrome extension that helps users summarize selected text from web pages and save research notes locally using the power of AI. Designed for students, researchers, and knowledge workers who want quick, smart, and clean summarization right in the browser.
+**IntellAINote** is a Chrome extension that helps users summarize selected text from web pages and save research notes locally using the power of AI. Designed for students, researchers, and knowledge workers who want quick, smart, and clean summarization right in the browser.
 
 ---
 
