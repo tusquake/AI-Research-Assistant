@@ -29,6 +29,8 @@
 - **Chrome Extensions API**
 - **Chrome Storage API**
 - **Custom AI Summarizer API** (Hosted at `http://localhost:8081/api/research/process`)
++ **Spring Boot (Java)** – for building the AI summarization backend
++ **Custom REST API** (Hosted at `http://localhost:8081/api/research/process`)
 
 ---
 
