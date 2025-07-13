@@ -1,0 +1,1 @@
+alert("This is a popup alert from the extension!");

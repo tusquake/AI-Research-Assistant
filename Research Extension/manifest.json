@@ -1,0 +1,30 @@
+{
+  "name": "Research Assitant",
+  "description": "This is an AI powered research assistant to summerize the content of the page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Research Assistant",
+    "default_icon": "hello_extensions.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost:8081/*",
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+  "extension_pages": "script-src 'self'; object-src 'self';"
+}
+
+}

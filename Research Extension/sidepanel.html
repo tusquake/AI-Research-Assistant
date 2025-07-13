@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Research Assistant</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2 style="text-align: center; font-weight: bold; font-size: 1.8rem;">Intell<b>AI</b>Note</h2>
+    </div>
+
+    <div class="actions">
+      <button id="summerizeBtn">Summarize</button>
+    </div>
+
+
+    <div id="loading" style="display: none; text-align: center; margin-top: 10px;">
+      <img src="spinner.gif" alt="Loading..." style="width:10rem; height: 6rem;">
+
+      <p>Summarizing...</p>
+    </div>
+
+    <div id="results" style="display: none;"></div>
+
+
+    <div id="notesMessage" style="display: none; color: green; margin-top: 5px;">
+      Notes saved successfully!
+    </div>
+
+    <div class="actions">
+      <h3>Research Notes</h3>
+      <textarea id="notes" placeholder="Type your notes here..."></textarea>
+      <button id="saveNotesbtn">Add Notes</button>
+    </div>
+  </div>
+
+
+
+  <script src="sidepanel.js"></script>
+</body>
+
+</html>
